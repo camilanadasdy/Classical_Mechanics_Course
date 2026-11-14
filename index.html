@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Página académica del curso de Mecánica Clásica.">
+  <title>Mecánica Clásica | Curso</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav wrap" aria-label="Navegación principal">
+      <a class="brand" href="#inicio"><span class="brand-mark">∑</span><span>Física <small>Curso académico</small></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#programa">Programa</a><a href="#semanas">Semanas</a><a href="#evaluacion">Evaluación</a><a href="#bibliografia">Bibliografía</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">CURSO · CIENCIAS FÍSICAS</p>
+          <h1>Mecánica<br><em>Clásica</em></h1>
+          <p class="hero-lead">Una aproximación estructurada al movimiento, las interacciones y los principios que describen los sistemas mecánicos.</p>
+          <div class="hero-actions"><a class="button button-light" href="#semanas">Explorar el curso <span>↗</span></a><a class="text-link" href="#programa">Consultar el programa</a></div>
+        </div>
+        <div class="hero-visual" aria-label="Ilustración conceptual de una trayectoria mecánica">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="axis axis-x"></div><div class="axis axis-y"></div>
+          <div class="trajectory"></div><div class="particle"></div>
+          <span class="formula formula-a">F = ma</span><span class="formula formula-b">L = T − V</span>
+          <span class="visual-caption">MOVIMIENTO · FUERZA · ENERGÍA</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="quick-facts wrap" aria-label="Información general">
+      <div><span class="fact-number">40</span><span class="fact-label">Horas totales</span></div>
+      <div><span class="fact-number">05</span><span class="fact-label">Unidades temáticas</span></div>
+      <div><span class="fact-number">20 / 20</span><span class="fact-label">Sincrónicas / autónomas*</span></div>
+      <div><span class="fact-number">01</span><span class="fact-label">Espacio de aprendizaje</span></div>
+    </section>
+
+    <section class="section wrap" id="programa">
+      <div class="section-heading"><div><p class="eyebrow">01 / VISIÓN GENERAL</p><h2>Sobre el curso</h2></div><p class="section-intro">La Mecánica Clásica constituye uno de los pilares de la física. En este curso estudiaremos cómo construir modelos, interpretar sus consecuencias y resolver problemas mediante herramientas matemáticas.</p></div>
+      <div class="info-grid">
+        <article class="info-card"><span class="card-index">A</span><h3>Propósito</h3><p>Comprender y aplicar los principios fundamentales de la mecánica al análisis de partículas y sistemas mecánicos.</p></article>
+        <article class="info-card"><span class="card-index">B</span><h3>Metodología</h3><p>Clases guiadas, desarrollo matemático, resolución de problemas y trabajo autónomo acompañado de recursos.</p></article>
+        <article class="info-card"><span class="card-index">C</span><h3>Resultados</h3><p>Modelar movimientos, identificar fuerzas, aplicar leyes de conservación y formular sistemas mecánicos sencillos.</p></article>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="semanas">
+      <div class="wrap">
+        <div class="section-heading"><div><p class="eyebrow">02 / RUTA DE APRENDIZAJE</p><h2>Contenido por semanas</h2></div><p class="section-intro">Cada semana reúne los temas de clase, los recursos de estudio y las actividades autónomas. Selecciona una unidad para consultar su planificación.</p></div>
+        <div class="week-list" id="weekList">
+          <article class="week-item">
+            <button class="week-toggle" aria-expanded="true"><span class="week-number">01</span><span class="week-title"><strong>Fundamentos de la cinemática</strong><small>Posición, velocidad, aceleración y sistemas de coordenadas</small></span><span class="week-hours">4 h + 3 h</span><span class="chevron">−</span></button>
+            <div class="week-content"><div class="week-columns"><div><h4>En clase</h4><ul><li>Sistemas de referencia y vectores cinemáticos.</li><li>Movimiento en una, dos y tres dimensiones.</li><li>Movimiento circular y descripción en distintos sistemas de coordenadas.</li></ul></div><div><h4>Trabajo autónomo · 3 horas</h4><ul><li>Lectura guiada sobre cinemática.</li><li>Taller de representación y análisis del movimiento.</li></ul></div></div><div class="resource-row"><span>RECURSOS Y ENTREGABLES</span><a href="materials/semana-01/README.txt">Carpeta de materiales ↗</a></div></div>
+          </article>
+          <article class="week-item">
+            <button class="week-toggle" aria-expanded="false"><span class="week-number">02</span><span class="week-title"><strong>Dinámica de partículas</strong><small>Leyes de Newton y modelos de fuerza</small></span><span class="week-hours">5 h + 4 h</span><span class="chevron">＋</span></button>
+            <div class="week-content" hidden><div class="week-columns"><div><h4>En clase</h4><ul><li>Leyes de Newton y marcos inerciales.</li><li>Diagramas de cuerpo libre.</li><li>Fuerzas de contacto, tensión, fricción y fuerza elástica.</li></ul></div><div><h4>Trabajo autónomo · 4 horas</h4><ul><li>Problemas de aplicación de las leyes de Newton.</li><li>Cuestionario de autoevaluación.</li></ul></div></div><div class="resource-row"><span>RECURSOS Y ENTREGABLES</span><a href="materials/semana-02/README.txt">Carpeta de materiales ↗</a></div></div>
+          </article>
+          <article class="week-item">
+            <button class="week-toggle" aria-expanded="false"><span class="week-number">03</span><span class="week-title"><strong>Trabajo y energía</strong><small>Teorema trabajo-energía y conservación</small></span><span class="week-hours">3 h + 4 h</span><span class="chevron">＋</span></button>
+            <div class="week-content" hidden><div class="week-columns"><div><h4>En clase</h4><ul><li>Trabajo de una fuerza y energía cinética.</li><li>Fuerzas conservativas y energía potencial.</li><li>Conservación de la energía mecánica y potencia.</li></ul></div><div><h4>Trabajo autónomo · 4 horas</h4><ul><li>Resolución de problemas de conservación.</li><li>Análisis de un sistema físico.</li></ul></div></div><div class="resource-row"><span>RECURSOS Y ENTREGABLES</span><a href="materials/semana-03/README.txt">Carpeta de materiales ↗</a></div></div>
+          </article>
+          <article class="week-item">
+            <button class="week-toggle" aria-expanded="false"><span class="week-number">04</span><span class="week-title"><strong>Sistemas de partículas y cuerpos rígidos</strong><small>Centro de masa, colisiones y rotación</small></span><span class="week-hours">5 h + 5 h</span><span class="chevron">＋</span></button>
+            <div class="week-content" hidden><div class="week-columns"><div><h4>En clase</h4><ul><li>Centro de masa, momento lineal e impulso.</li><li>Colisiones y conservación del momento.</li><li>Momento angular, torque y dinámica rotacional.</li><li>Momento de inercia y equilibrio.</li></ul></div><div><h4>Trabajo autónomo · 5 horas</h4><ul><li>Taller de colisiones y sistemas de partículas.</li><li>Problemas de dinámica rotacional.</li></ul></div></div><div class="resource-row"><span>RECURSOS Y ENTREGABLES</span><a href="materials/semana-04/README.txt">Carpeta de materiales ↗</a></div></div>
+          </article>
+          <article class="week-item">
+            <button class="week-toggle" aria-expanded="false"><span class="week-number">05</span><span class="week-title"><strong>Introducción a la mecánica analítica</strong><small>Coordenadas generalizadas y formalismo lagrangiano</small></span><span class="week-hours">3 h + 4 h</span><span class="chevron">＋</span></button>
+            <div class="week-content" hidden><div class="week-columns"><div><h4>En clase</h4><ul><li>Grados de libertad y restricciones.</li><li>Coordenadas generalizadas.</li><li>Lagrangiano y ecuaciones de Euler-Lagrange.</li><li>Aplicaciones a sistemas sencillos.</li></ul></div><div><h4>Trabajo autónomo · 4 horas</h4><ul><li>Deducción de las ecuaciones para un sistema mecánico.</li><li>Actividad integradora final.</li></ul></div></div><div class="resource-row"><span>RECURSOS Y ENTREGABLES</span><a href="materials/semana-05/README.txt">Carpeta de materiales ↗</a></div></div>
+          </article>
+        </div>
+        <p class="note">*Distribución horaria preliminar: 20 horas sincrónicas y 20 horas de trabajo autónomo. El cronograma se ajustará a las fechas y sesiones reales del curso.</p>
+      </div>
+    </section>
+
+    <section class="section wrap" id="evaluacion">
+      <div class="section-heading"><div><p class="eyebrow">03 / SEGUIMIENTO</p><h2>Evaluación</h2></div><p class="section-intro">La evaluación busca valorar la comprensión física, la consistencia del desarrollo matemático y la capacidad de aplicar los conceptos a situaciones concretas.</p></div>
+      <div class="assessment">
+        <div class="assessment-row"><span>Talleres y actividades autónomas</span><div class="bar"><i style="width:30%"></i></div><strong>30%</strong></div>
+        <div class="assessment-row"><span>Evaluaciones individuales</span><div class="bar"><i style="width:30%"></i></div><strong>30%</strong></div>
+        <div class="assessment-row"><span>Actividades de aplicación</span><div class="bar"><i style="width:20%"></i></div><strong>20%</strong></div>
+        <div class="assessment-row"><span>Evaluación integradora final</span><div class="bar"><i style="width:20%"></i></div><strong>20%</strong></div>
+      </div>
+      <p class="note">Ponderaciones sugeridas, sujetas a aprobación y a los lineamientos de la institución.</p>
+    </section>
+
+    <section class="section section-muted" id="bibliografia">
+      <div class="wrap">
+        <div class="section-heading"><div><p class="eyebrow">04 / PARA PROFUNDIZAR</p><h2>Bibliografía</h2></div><p class="section-intro">Textos de referencia para acompañar el desarrollo conceptual y la resolución de problemas.</p></div>
+        <div class="bibliography">
+          <p><strong>Taylor, J. R.</strong> (2005). <em>Classical Mechanics.</em> University Science Books.</p>
+          <p><strong>Kleppner, D. & Kolenkow, R. J.</strong> (2014). <em>An Introduction to Mechanics.</em> Cambridge University Press.</p>
+          <p><strong>Marion, J. B. & Thornton, S. T.</strong> (2004). <em>Classical Dynamics of Particles and Systems.</em> Brooks/Cole.</p>
+          <p><strong>Goldstein, H., Poole, C. & Safko, J.</strong> (2002). <em>Classical Mechanics.</em> Addison-Wesley.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="wrap footer-inner"><div><strong>Mecánica Clásica</strong><p>Material académico del curso.</p></div><div class="footer-meta">Docente: <span>[Nombre del docente]</span><br>Institución: <span>[Institución]</span></div></div><div class="wrap copyright">© <span id="year"></span> · Página del curso · Información sujeta a actualización.</div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
