@@ -1,29 +1,121 @@
-# Página del curso: Mecánica Clásica
 
-Sitio estático preparado para publicar con GitHub Pages. No requiere dominio propio, frameworks ni procesos de compilación.
+# Mecánica Clásica
 
-## Publicar en GitHub Pages
+Repositorio del sitio web académico del curso de **Mecánica Clásica**.
 
-1. Crea o inicia sesión en https://github.com/.
-2. Crea un repositorio nuevo, por ejemplo `mecanica-clasica`. Para GitHub Free, déjalo **Public**.
-3. Descomprime este paquete y sube al repositorio los archivos y carpetas que contiene. `index.html` debe quedar en la raíz.
-4. En el repositorio, abre **Settings → Pages**.
-5. En **Build and deployment**, elige **Deploy from a branch**.
-6. Selecciona la rama `main` y la carpeta `/(root)`, y pulsa **Save**.
-7. Espera a que GitHub publique el sitio. La dirección tendrá el formato `https://TU-USUARIO.github.io/mecanica-clasica/`.
+La página contiene el programa académico, la planificación de las sesiones, las actividades de trabajo autónomo y los recursos de apoyo para los estudiantes.
 
-## Personalizar antes de compartir
+## Información general
 
-- En `index.html`, reemplaza `[Nombre del docente]` y `[Institución]`.
-- Revisa la distribución horaria, el temario, la evaluación y la bibliografía. El contenido actual es una propuesta inicial, no un programa aprobado.
-- En cada semana, añade enlaces a tus archivos PDF, diapositivas, lecturas y talleres. Puedes crear subcarpetas dentro de `materials/semana-XX/` y enlazar los archivos desde la semana correspondiente.
-- Si cambias el número de semanas o las horas, actualiza también los indicadores de la portada.
+| Característica | Descripción |
+|---|---|
+| Asignatura | Mecánica Clásica |
+| Duración | 40 horas |
+| Clases sincrónicas | 16 horas |
+| Trabajo autónomo | 24 horas |
+| Sesiones programadas | 8 clases |
+| Duración por sesión | 2 horas |
+| Horario | 8:00 p. m. – 10:00 p. m. |
+| Modalidad | Clases sincrónicas y trabajo autónomo |
 
-## Estructura
+## Contenido del curso
 
-- `index.html`: contenido del sitio.
-- `styles.css`: diseño adaptable a móvil y escritorio.
-- `script.js`: interacción de los apartados semanales y menú móvil.
-- `materials/`: carpetas de ejemplo para recursos de cada semana.
+El programa se concentra en tres ejes fundamentales:
 
-La página es pública: no subas datos personales de estudiantes, calificaciones ni documentos privados.
+### 1. Principios fundamentales de la mecánica analítica
+- Mecánica de una partícula y de sistemas de partículas.
+- Restricciones.
+- Principio de D'Alembert.
+- Ecuaciones de Lagrange.
+- Principio de Hamilton.
+- Cálculo de variaciones y formulación variacional.
+
+### 2. El problema de fuerzas centrales
+- Reducción al problema equivalente de un cuerpo.
+- Ecuaciones de movimiento e integrales primeras.
+- Clasificación de órbitas.
+- Teorema del virial.
+- Teorema de Bertrand.
+- Problema de Kepler.
+- Vector de Laplace-Runge-Lenz.
+- Dispersión en campos de fuerzas centrales.
+
+### 3. Formulación hamiltoniana
+- Transformaciones de Legendre.
+- Ecuaciones de Hamilton.
+- Coordenadas cíclicas.
+- Teoremas de conservación.
+- Principio de mínima acción.
+
+### Temas complementarios
+
+Dependiendo del tiempo disponible y de los intereses del grupo, podrán abordarse:
+
+- Cinemática y dinámica de cuerpos rígidos.
+- Tensor de inercia y ecuaciones de Euler.
+- Teoría de Hamilton-Jacobi.
+- Variables de acción-ángulo.
+
+Estos contenidos no son obligatorios y podrían desarrollarse en una segunda parte del curso.
+
+## Metodología de trabajo
+
+El curso combina sesiones sincrónicas con actividades de trabajo autónomo.
+
+Después de cada clase se enviarán:
+
+- Ejercicios relacionados con los contenidos estudiados.
+- Lecturas seleccionadas de los textos de referencia.
+- Material de preparación para las siguientes sesiones.
+
+Se espera que los estudiantes revisen previamente los contenidos y desarrollen los ejercicios propuestos, con el propósito de llegar a clase con preguntas y dificultades concretas que puedan discutirse y resolverse colectivamente.
+
+El programa podrá modificarse de acuerdo con el ritmo de aprendizaje y las necesidades académicas de los estudiantes.
+
+## Bibliografía principal
+
+- Goldstein, H., Poole, C. P., & Safko, J. *Classical Mechanics*. 3rd edition. Addison-Wesley.
+- Cosenza, Mario. Texto de Mecánica Clásica. Se utilizarán los capítulos y apartados correspondientes a los contenidos del curso.
+
+## Estructura del repositorio
+
+```text
+mecanica-clasica/
+│
+├── index.html
+│
+├── styles.css
+│
+├── script.js
+│
+├── README.md
+│
+└── materials/
+    ├── semana-01/
+    ├── semana-02/
+    ├── semana-03/
+    ├── semana-04/
+    └── semana-05/
+```
+
+### Descripción de los archivos
+
+| Archivo | Función |
+|---|---|
+| `index.html` | Estructura y contenido de la página web. |
+| `styles.css` | Diseño visual y estilos. |
+| `script.js` | Funcionalidades e interacciones. |
+| `README.md` | Documentación del repositorio. |
+| `materials/` | Organización de materiales y recursos académicos. |
+
+## Sitio web
+
+El sitio se encuentra publicado mediante **GitHub Pages**.
+
+La dirección de acceso se puede consultar en:
+
+`Settings → Pages`
+
+---
+
+**Mecánica Clásica | Material académico y recursos del curso**
